@@ -1,5 +1,8 @@
 # Compiled class file
 *.class
+.idea
+.gradle
+gradle/wrapper/gradle.wrapper.jar
 
 # Log file
 *.log

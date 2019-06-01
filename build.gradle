@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.yasiekz'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.projectreactor', name: 'reactor-core', version: '3.2.9.RELEASE'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.4.0'
+}
