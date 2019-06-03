@@ -5,13 +5,17 @@ plugins {
 group 'io.github.yasiekz'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
+targetCompatibility = 11
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    compile group: 'org.springframework', name: 'spring-context', version: '5.1.7.RELEASE'
     compile group: 'io.projectreactor', name: 'reactor-core', version: '3.2.9.RELEASE'
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.4.0'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.28.2'
+    testCompile group: 'io.projectreactor', name: 'reactor-test', version: '3.2.9.RELEASE'
 }
