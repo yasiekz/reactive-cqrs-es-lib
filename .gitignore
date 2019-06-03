@@ -2,7 +2,6 @@
 *.class
 .idea
 .gradle
-gradle/wrapper/gradle.wrapper.jar
 out
 build
 
@@ -16,7 +15,6 @@ build
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
