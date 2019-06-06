@@ -15,6 +15,29 @@ This is simple lib which adds reactive command handling classes to your springbo
 
 ## Usage
 
+##### Import lib 
+
+**With maven**
+```xml
+<dependency>
+  <groupId>io.github.yasiekz</groupId>
+  <artifactId>reactive-cqrs-es-lib</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+**With gradle**
+
+```groovy
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.yasiekz:reactive-cqrs-es-lib:1.0.0'
+}
+```
+
 ##### Register bean in `@Configuration` class
 
 ```java
